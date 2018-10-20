@@ -1,0 +1,7 @@
+author = hamstar
+version = 0.0.1
+displayName = Encounters
+modReferences = HamstarHelpers@3.0.2
+buildIgnore = *.csproj, *.user, *.bat, obj\*, bin\*, .vs\*, .git\*
+languageVersion = 6
+homepage = https://forums.terraria.org/index.php?threads/capitalism.52930/

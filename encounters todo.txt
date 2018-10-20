@@ -1,0 +1,25 @@
+v1
+-	Implement API
+-	Implement custom AI behaviors (does not apply with flocks)
+	-	Enrages
+	-	Granite (with variations)
+	-	Teleports
+-	Implement encounter types
+	-	Forcefields
+	-	Invader
+	-	Mini-boss
+	-	Flocks
+-	Setup mod
+
+
+Plan v1
+-	Encounter types
+	-	Flock of a mob spawn with reduced stats
+	-	Powerful version of a mob
+	-	Powerful random mob with 5hp, 9999 armor
+	-	Mob forcefield generators (often in multiples)
+	-	Added AI behaviors
+		-	Teleports randomly
+		-	Granite defends on hit
+		-	Becomes enraged on low health
+-	On A Rail: Mob forcefields + powerful mobs common, and removed by train device only
