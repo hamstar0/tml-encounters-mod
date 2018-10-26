@@ -1,22 +1,73 @@
 v1
 -	Implement API
--	Implement custom AI behaviors (does not apply with flocks)
-	-	Enrages
-	-	Granite (with variations)
-	-	Teleports
--	Implement encounter types
+-	Implement encounter types (triggered by event-only NPC)
 	-	Forcefields
 	-	Invader
+		-	Implement custom AI behaviors (does not apply with flocks)
+			-	Enrages
+			-	Granite (with variations)
+			-	Teleports
+			-	Resets attack (wizard AI, fighter AI)
 	-	Mini-boss
 	-	Flocks
+-	Edit spawn table to include a special event-only NPC
+
+-	Define config settings
 -	Setup mod
+
 
 
 Plan v1
 -	Encounter types
 	-	Flock of a mob spawn with reduced stats
-	-	Powerful version of a mob
-	-	Powerful random mob with 5hp, 9999 armor
+	-	Powerful version of existing mobs
+	-	Powerful random "invader" mobs with appearance changes; scale according to game stage
+		-	Punky (a Pinky)
+		-	Mr. Spoopy (a Cursed Skull)
+		-	Big Boned (Bone Serpent)
+		-	Totally Ordinary Rabbit (Corrupt Bunny)
+		-	Daemon (Demon)
+		-	Nazgul (Wraith)
+		-	Whyvern (Wyvern)
+		-	Corruptor of Worlds (Corruptor)
+		-	Blood Letter (Leech)
+		-	Nihilist (Chaos Elemental)
+		-	Mr. Gassy (Gastropod)
+		-	"Him" (Red Devil)
+		-	Vlad (Vampire)
+		-	Hoggron (Pigron)
+		-	Wihzarhd (Rune Wizard)
+		-	Killer Bee (Bee)
+		-	Captain Crow (Pirate Captain)
+		-	Permafrost Golem (Ice Golem)
+		-	Disco Slime (Rainbow Slime)
+		-	Haggard Caster (Ragged Caster)
+		-	Arch Necromancer (Necromancer)
+		-	Arch Diabolist (Diabolist)
+		-	Chuck Mortis (Bone Lee)
+		-	Ms. Spoopy (Giant Cursed Skull)
+		-	Knight of the Round (Paladin)
+		-	Crackshot (Skeleton Sniper)
+		-	Riot Skeleton (Tactical Skeleton)
+		-	Sarge (Skeleton Commando)
+		-	Casper (Ghost)
+		-	Entite (Star Cell)
+		-	Stream Intruder (Flow Invader)
+		-	Seer (Star Gazer)
+		-	Hell Wyvern Rider (Drakomire Rider)
+		-	Hell Brawler (Selenian)
+		-	Asteroid Head (Corite)
+		-	Beholder (Nebula Floater)
+		-	Facehugger (Brain Suckler)
+		-	Psi Beast (Evolution Beast)
+		-	Overseer (Predictor)
+		-	Space Marine (Storm Diver)
+		-	Vespa Queen (Alien Queen)
+		-	Gorgon (Medusa)
+		-	Grabboid (Dune Splicer)
+		-	Djinni (Desert Spirit)
+		-	Bat Outta' Hell (Lava Bat)
+		-	Wolf Bat (Giant Flying Fox)
 	-	Mob forcefield generators (often in multiples)
 	-	Added AI behaviors
 		-	Teleports randomly
